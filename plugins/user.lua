@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  { "rose-pine/neovim",
+    as = "rose-pine",
+    config = function() vim.cmd "colorscheme rose-pine" end,
+  },
 }
