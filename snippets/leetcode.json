@@ -1,0 +1,23 @@
+{
+  "setup": {
+    "prefix": ["leetcode"],
+    "body": [
+      "#include <iostream>",
+      "#include<vector>",
+      "#include <queue>",
+      "#include <stack>", 
+      "#include <string>",
+      "#include <map>",
+      "using namespace std;",
+     "",
+      "class Solution{",
+      "public:",
+      "",
+      "};",
+      "",
+      "int main(){",
+     "}"
+    ],
+    "description": "My setup for leetcode problems"
+  }
+}

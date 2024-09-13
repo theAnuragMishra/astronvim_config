@@ -8,5 +8,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.syntax.vim-sandwich" },
   -- import/override with your plugins folder
 }

@@ -1,0 +1,34 @@
+{
+  "setup": {
+    "prefix": ["codeforces"],
+    "body": [
+      "#include<iostream>",
+      "#include<vector>",
+      "#include<string>",
+      "#include<queue>",
+      "#include<stack>",
+      "using namespace std;",
+      "#define ar array",
+      "#define ll long long",
+      "#define ld long double",
+      "#define sza(x) ((int)x.size())",
+      "#define all(a) (a).begin(), (a).end()",
+      "",
+      "using vi = vector<int>;",
+      "",
+      "void solve(){",
+      "int n;",
+      "cin >> n;",
+      "}",
+      "",
+      "int main(){",
+      "ios::sync_with_stdio(false);",
+      "cin.tie(0);",
+      "int t;",
+      "cin >> t;",
+      "while (t--) solve();",
+      "}"
+    ],
+    "description": "My setup for competitive programming"
+  }
+}
