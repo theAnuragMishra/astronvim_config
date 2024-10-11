@@ -20,7 +20,6 @@ return {
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.json" },
-  { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.go" },
   -- import/override with your plugins folder
 }
