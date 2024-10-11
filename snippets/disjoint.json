@@ -1,0 +1,37 @@
+{
+  "setup": {
+    "prefix": ["disjointset"],
+    "body": [
+"class DisjointSet {",
+"public:",
+"vector<int> size;",
+"vector<int> parent;",
+"DisjointSet(int n) {",
+"size.resize(n, 0);",
+"parent.resize(n, 0);",
+"for (int i = 0; i < n; i++)",
+"parent[i] = i;",
+"}",
+"int findUltimateParent(int node) {", 
+"if (parent[node] == node)",
+"return node;",
+"return parent[node] = findUltimateParent(parent[node]);", 
+"}", 
+"void getUnion(int u, int v) {", 
+"int up = findUltimateParent(u);",
+"int vp = findUltimateParent(v);",
+"if (up == vp)",
+"return;",
+"if (size[up] > size[vp]) {",
+"parent[vp] = up;",
+"size[up] += size[vp];",
+"} else {",
+"parent[up] = vp;",
+"size[vp] += size[up];",
+"}",
+"}",
+"};"
+    ],
+    "description": "disjoint set template"
+  }
+}
