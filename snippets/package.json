@@ -10,8 +10,12 @@
         "path": "./competitive_programming.json"
       },
       {
-        "language":"cpp",
-        "path":"./leetcode.json"
+        "language": "cpp",
+        "path": "./leetcode.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./disjoint.json"
       }
     ]
   }
