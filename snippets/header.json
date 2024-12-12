@@ -1,0 +1,15 @@
+{
+  "setup": {
+    "prefix": [
+      "header"
+    ],
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main(){",
+      "}"
+    ],
+    "description": "for include iostream and using namespace std"
+  }
+}
