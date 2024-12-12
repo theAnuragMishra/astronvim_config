@@ -16,6 +16,10 @@
       {
         "language": "cpp",
         "path": "./disjoint.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./header.json"
       }
     ]
   }
